@@ -1,0 +1,57 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border-color: green;
+	border-radius: 3px;
+	color: #000;
+}
+
+.form-control:focus {
+	outline: none;
+	border-color: #ff0;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #f00;
+}
+
+.form-control::-moz-placeholder {
+	opacity: 1;
+	color: #f00;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #f00;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+	border-radius: 4px;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	line-height: 1.5;
+	outline: none;
+}
+
+.btn:hover {
+	background-color: #424242;
+}

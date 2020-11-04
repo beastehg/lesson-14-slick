@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('../../../fonts/Rubiklight.woff2') format('woff2'),
+        url('../../../Rubiklight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../../../Rubikmedium.woff2') format('woff2'),
+        url('../../../Rubikmedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
