@@ -2,13 +2,15 @@ html {
 	box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
 body {
-	font: 16px/1.5 Arial, Helvetica, sans-serif;
-	color: #000;
+	font: 14px/1.86 Arial, Helvetica, sans-serif;
+	color: #8d8f92;
 	background-color: #fff;
 	min-width: 320px;
 }
@@ -19,12 +21,19 @@ img {
 	vertical-align: top;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
 	margin: 0 0 1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 2.19;
 	margin: 0 0 .5em;
 }
 

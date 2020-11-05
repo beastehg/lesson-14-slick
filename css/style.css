@@ -6,4 +6,6 @@
 
 @import url(components/typography.css);
 
+@import url(slick/slick.css);
+
 @import url(components/common.css);

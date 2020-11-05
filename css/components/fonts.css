@@ -1,15 +1,51 @@
 @font-face {
-    font-family: 'rubik';
-    src: url('../../../fonts/Rubiklight.woff2') format('woff2'),
-        url('../../../Rubiklight.woff') format('woff');
-    font-weight: 300;
+    font-family: 'icomoon';
+    src:
+        url('../../fonts/icomoon.ttf?2ihzz8') format('truetype'),
+        url('../../fonts/icomoon.woff?2ihzz8') format('woff'),
+        url('../../fonts/icomoon.svg?2ihzz8#icomoon') format('svg');
+    font-weight: normal;
     font-style: normal;
+    font-display: block;
 }
 
-@font-face {
-    font-family: 'rubik';
-    src: url('../../../Rubikmedium.woff2') format('woff2'),
-        url('../../../Rubikmedium.woff') format('woff');
-    font-weight: 500;
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
     font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-dot:before {
+    content: "\e902";
+}
+
+.icon-linkedin:before {
+    content: "\e903";
+}
+
+.icon-twitter:before {
+    content: "\e904";
+}
+
+.icon-facebook:before {
+    content: "\e905";
+}
+
+.icon-arrow-left:before {
+    content: "\e900";
+}
+
+.icon-arrow-right:before {
+    content: "\e901";
 }
