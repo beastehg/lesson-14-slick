@@ -9,9 +9,10 @@ html {
 }
 
 body {
-	font: 14px/1.86 Arial, Helvetica, sans-serif;
+	font: 14px/1.86 'Open Sans', Helvetica, sans-serif;
 	color: #8d8f92;
 	background-color: #fff;
+	font-weight: 300;
 	min-width: 320px;
 }
 
@@ -33,11 +34,13 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Quattrocento-Sans', Arial, sans-serif;
 	line-height: 2.19;
 	margin: 0 0 .5em;
 }
 
 h1 {
+	font-weight: 600;
 	font-size: 40px;
 }
 

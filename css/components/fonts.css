@@ -1,4 +1,37 @@
 @font-face {
+    font-family: 'Quattrocento-Sans';
+    src:
+        url('../../fonts/quattrocentosans.woff2') format('woff2'),
+        url('../../fonts/quattrocentosans.woff') format('woff'),
+        url('../../fonts/quattrocentosans.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento-Sans';
+    src:
+        url('../../fonts/quattrocentosansbold.woff2') format('woff2'),
+        url('../../fonts/quattrocentosansbold.woff') format('woff'),
+        url('../../fonts/quattrocentosansbold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src:
+        url('opensanslight.woff2') format('woff2'),
+        url('opensanslight.woff') format('woff'),
+        url('opensanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
     font-family: 'icomoon';
     src:
         url('../../fonts/icomoon.ttf?2ihzz8') format('truetype'),
