@@ -18,17 +18,12 @@ $(document).ready(function () {
 	$('.slider-2').slick({
 		arrows: true,
 		speed: 500,
-		// dots: false,
-		// dots: true,
-		// infinite: true,
 		slidesToShow: 4,
 
 		responsive: [{
 				breakpoint: 576,
 				settings: {
 					arrows: false,
-					// centerMode: true,
-					// centerPadding: '40px',
 					dots: true,
 					slidesToShow: 1
 				}
@@ -38,8 +33,6 @@ $(document).ready(function () {
 				settings: {
 					arrows: false,
 					dots: true,
-					// centerMode: true,
-					// centerPadding: '40px',
 					slidesToShow: 2
 				}
 			},
