@@ -174,7 +174,7 @@
 	right: 0;
 	opacity: 0;
 	background-color: rgba(255, 255, 255, 0.4);
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
 }
 
 .card:hover .hover-card {
@@ -224,7 +224,7 @@
 }
 
 .fio h2 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 9px;
 	padding: 0 10px 0;
@@ -236,7 +236,11 @@
 	margin-bottom: 0;
 }
 
-
+@media (min-width: 480px){
+	.fio h2 {
+		font-size: 20px;
+	}
+}
 
 @media (min-width: 768px) {
 	.slider-2 {
@@ -252,5 +256,15 @@
 	.slider-2 .slick-prev,
 	.slider-2 .slick-next {
 		padding: 0 10px;
+	}
+
+	.fio h2 {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1024px){
+	.fio h2 {
+		font-size: 26px;
 	}
 }
